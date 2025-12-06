@@ -3,7 +3,7 @@
 
 　　　　　　実行方法：
                     
-                    cd src javac → -encoding UTF-8 Book.java Library.java LibraryApp.java →  java Library App
+                    cd src → javac -encoding UTF-8 Book.java Library.java LibraryApp.java →  java Library App
 
 クラス設計のポイント：Bookクラスは書籍の情報の定義をして登録や一覧表示をした際に読み込まれるデータの役割にした。
 　　　　　　　　　　　Libraryクラスは書籍を追加、削除、一覧表示の処理をおこなう役割にした。
